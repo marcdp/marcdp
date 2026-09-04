@@ -4,7 +4,7 @@
 
 I’m a hands-on software engineer with many years of experience building and evolving software systems.
 
-Software engineering has always been more than just a job for me. I genuinely enjoy building software, understanding how systems work, and finding simpler and better ways to design them.
+I genuinely enjoy building software, understanding how systems work, and finding simpler and better ways to design them.
 
 Over time, that interest has increasingly drawn me toward software architecture: where responsibilities belong, who owns state, what can fail, which trade-offs are worth making, and how to keep a system understandable as it grows.
 
@@ -17,7 +17,6 @@ I still enjoy working directly with code. For me, architecture is not a layer ab
 * **Distributed and event-driven systems**: messaging, concurrency, state ownership, consistency, recovery, and observability
 * **Reliability and maintainability**: failure behavior, testing, operational concerns, CI/CD, and safe evolution
 * **AI engineering**: LLM-enabled systems, agents, tool use, retrieval, evaluation, reliability, and AI-assisted development
-* **Python**: automation, CLI tooling, AI/ML work, and developer productivity
 
 ## How I think about software
 
@@ -61,7 +60,6 @@ A local-first Python CLI for keeping selectively encrypted secrets inside normal
 
 It combines developer experience with security-conscious design, explicit limitations, and safe failure behavior.
 
-
 ### [Equity Forecasting with Deep Learning](https://github.com/marcdp/equity-forecasting-ai)
 
 Applied AI/ML research developed for my Master’s thesis, comparing LSTM, N-BEATS, and TSFEDL models for hourly financial time-series forecasting.
@@ -89,7 +87,3 @@ I’m particularly interested in work where **architecture, implementation, and 
 **Primary:** C#, .NET, Python
 
 **Focus:** Software Architecture · Distributed Systems · Event-Driven Systems · Backend Engineering · Testing · CI/CD · Developer Tooling · AI/LLM Engineering
-
----
-
-I use my public repositories not only to show what I build, but also to document some of the decisions, trade-offs, and lessons behind the systems.
