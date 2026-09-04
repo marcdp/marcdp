@@ -23,37 +23,42 @@ I still enjoy working directly with code. For me, architecture is most useful wh
 
 I strongly value simplicity.
 
-Simple does not mean simplistic. It means removing unnecessary moving parts, keeping responsibilities clear, and choosing the least complex solution that satisfies the real requirements.
-
-I prefer a straightforward design that I can explain and reason about over a sophisticated one that is difficult to understand.
+Simple does not mean simplistic. I prefer designs with clear responsibilities, understandable behavior, and as few moving parts as the problem allows.
 
 A few questions I tend to ask when designing or reviewing a system:
 
-* Where does the state live, and who owns it?
-Shared state should be explicit, limited, and justified.
-* What happens when this fails?
-Failure paths should be observable, diagnosable, and communicated appropriately.
-* Which assumptions are we making?
-Are they actually true, and what happens if they stop being true?
-* Can this be simpler?
-And can the design remain clear, coherent, and pleasant to work with?
-* Does this abstraction actually earn its place?
-Every abstraction should protect a meaningful boundary or reduce real complexity.
-* How will we verify the important behavior?
-Critical behavior should be testable and protected by tests.
-* What trade-offs are we accepting?
-Trying to optimize everything usually creates more complexity than value.
-* Will someone else understand this six months from now?
-The design should remain understandable to future maintainers — human or AI-assisted.
+## How I think about software
 
-Other principles I value:
+I strongly value simplicity.
 
-* **Explicit trade-offs** — there is rarely a universally best architecture. Constraints, benefits, and costs should be visible.
-* **Clear ownership** — responsibilities, state, and lifecycle should have clear owners.
-* **Failure is part of the design** — the happy path is only part of how a system behaves.
-* **Abstractions should earn their complexity** — indirection is useful when it protects a meaningful boundary, not simply because a pattern exists.
-* **Tests should protect behavior** — important invariants, edge cases, and failure modes matter more than a coverage number.
-* **Operations belong in the design** — logging, observability, diagnostics, deployment, and recovery affect architecture.
+Simple does not mean simplistic. I prefer designs with clear responsibilities, understandable behavior, and as few moving parts as the problem allows.
+
+A few questions I tend to ask when designing or reviewing a system:
+
+* **Where does the state live, and who owns it?**
+  Shared state deserves extra scrutiny.
+
+* **What happens when this fails?**
+  Failures should be visible and diagnosable.
+
+* **Which assumptions are we making?**
+  And are they actually true?
+
+* **Can this be simpler?**
+  Good design should also be pleasant to understand and work with.
+
+* **Does this abstraction really earn its place?**
+  I prefer useful boundaries over abstraction for its own sake.
+
+* **How will we know the important behavior still works?**
+  Important behavior deserves tests.
+
+* **What trade-offs are we accepting?**
+  Trying to optimize for everything usually makes the system worse.
+
+* **Will this still be understandable six months from now?**
+  By another engineer — or by me.
+
 
 ## Selected work
 
