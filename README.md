@@ -30,13 +30,21 @@ I prefer a straightforward design that I can explain and reason about over a sop
 A few questions I tend to ask when designing or reviewing a system:
 
 * Where does the state live, and who owns it?
+Shared state should be explicit, limited, and justified.
 * What happens when this fails?
+Failure paths should be observable, diagnosable, and communicated appropriately.
 * Which assumptions are we making?
+Are they actually true, and what happens if they stop being true?
 * Can this be simpler?
+And can the design remain clear, coherent, and pleasant to work with?
 * Does this abstraction actually earn its place?
+Every abstraction should protect a meaningful boundary or reduce real complexity.
 * How will we verify the important behavior?
+Critical behavior should be testable and protected by tests.
 * What trade-offs are we accepting?
+Trying to optimize everything usually creates more complexity than value.
 * Will someone else understand this six months from now?
+The design should remain understandable to future maintainers — human or AI-assisted.
 
 Other principles I value:
 
@@ -46,7 +54,6 @@ Other principles I value:
 * **Abstractions should earn their complexity** — indirection is useful when it protects a meaningful boundary, not simply because a pattern exists.
 * **Tests should protect behavior** — important invariants, edge cases, and failure modes matter more than a coverage number.
 * **Operations belong in the design** — logging, observability, diagnostics, deployment, and recovery affect architecture.
-* **AI needs engineering discipline too** — AI-enabled systems still need evaluation, constraints, security, observability, and explicit failure handling.
 
 ## Selected work
 
