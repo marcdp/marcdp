@@ -68,11 +68,11 @@ A Python package of developer-focused CLI utilities and reusable tooling for aut
 
 The goal is pragmatic: useful tools, predictable behavior, and as little unnecessary complexity as possible.
 
-### [AI / Algorithmic Trading Research](https://github.com/marcdp/master-ia-tfm)
+### [Equity Forecasting with Deep Learning](https://github.com/marcdp/equity-forecasting-ai)
 
-Research developed as part of my Master’s work in Applied Artificial Intelligence, focused on deep-learning approaches to financial time-series prediction and algorithmic trading.
+Applied AI/ML research developed for my Master’s thesis, comparing LSTM, N-BEATS, and TSFEDL models for hourly financial time-series forecasting.
 
-It complements my software engineering background with practical work in machine learning experimentation, evaluation, and quantitative analysis.
+The work focuses on chronological evaluation, simple baselines, leakage prevention, and the relationship between regression accuracy, directional prediction, and simulated trading performance.
 
 ## Current direction
 
