@@ -4,9 +4,11 @@
 
 I’m a hands-on software engineer with many years of experience building and evolving software systems.
 
-Over time, I’ve become increasingly interested in the decisions behind the code: where responsibilities belong, who owns state, what can fail, which trade-offs are worth making, and how to keep a system understandable as it grows.
+Software engineering has always been more than just a job for me. I genuinely enjoy building software, understanding how systems work, and finding simpler and better ways to design them.
 
-I still enjoy working directly with code. For me, architecture is most useful when it stays connected to implementation, real constraints, and the way software behaves in production.
+Over time, that interest has increasingly drawn me toward software architecture: where responsibilities belong, who owns state, what can fail, which trade-offs are worth making, and how to keep a system understandable as it grows.
+
+I still enjoy working directly with code. For me, architecture is not a layer above implementation; it is most useful when it stays connected to code, real constraints, and the way software behaves in production.
 
 ## What I work on
 
