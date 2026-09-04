@@ -4,34 +4,24 @@
 
 I’m a hands-on software engineer with many years of experience building and evolving software systems.
 
-I’m especially interested in the decisions behind the code: how a system is structured, where responsibilities belong, what can fail, which trade-offs are worth making, and how to keep software understandable as it grows.
+Over time, I’ve become increasingly interested in the decisions behind the code: where responsibilities belong, who owns state, what can fail, which trade-offs are worth making, and how to keep a system understandable as it grows.
 
-I still enjoy working directly with code. For me, architecture is most useful when it stays connected to implementation, real constraints, and the way systems behave in production.
+I still enjoy working directly with code. For me, architecture is most useful when it stays connected to implementation, real constraints, and the way software behaves in production.
 
 ## What I work on
 
-* **Software architecture** — system boundaries, decomposition, coupling, quality attributes, trade-offs, and evolutionary design
-* **C# / .NET** — backend systems, reusable libraries, APIs, persistence, asynchronous programming, and infrastructure
-* **Distributed and event-driven systems** — messaging, concurrency, state ownership, consistency, recovery, and observability
-* **Reliability and maintainability** — failure behavior, testability, operational concerns, CI/CD, and safe evolution
-* **AI engineering** — LLM-enabled systems, agents, tool use, structured outputs, retrieval, evaluation, reliability, and AI-assisted development
-* **Python** — automation, CLI tooling, AI/ML work, and developer productivity
-
-## How I think about software
-
-### Simplicity first
-
-I strongly value simplicity.
-
-Simple does not mean simplistic. I prefer designs with clear responsibilities, understandable behavior, and as few moving parts as the problem allows.
-
-A few questions I tend to ask when designing or reviewing a system:
+* **Software architecture**: system boundaries, decomposition, coupling, trade-offs, and evolutionary design
+* **C# / .NET**: backend systems, reusable libraries, APIs, persistence, asynchronous programming, and infrastructure
+* **Distributed and event-driven systems**: messaging, concurrency, state ownership, consistency, recovery, and observability
+* **Reliability and maintainability**: failure behavior, testing, operational concerns, CI/CD, and safe evolution
+* **AI engineering**: LLM-enabled systems, agents, tool use, retrieval, evaluation, reliability, and AI-assisted development
+* **Python**: automation, CLI tooling, AI/ML work, and developer productivity
 
 ## How I think about software
 
 I strongly value simplicity.
 
-Simple does not mean simplistic. I prefer designs with clear responsibilities, understandable behavior, and as few moving parts as the problem allows.
+**Simple does not mean simplistic.** I prefer designs with clear responsibilities, understandable behavior, and as few moving parts as the problem allows.
 
 A few questions I tend to ask when designing or reviewing a system:
 
@@ -45,7 +35,7 @@ A few questions I tend to ask when designing or reviewing a system:
   And are they actually true?
 
 * **Can this be simpler?**
-  Good design should also be pleasant to understand and work with.
+  A simple design can still be elegant and pleasant to work with.
 
 * **Does this abstraction really earn its place?**
   I prefer useful boundaries over abstraction for its own sake.
@@ -53,12 +43,7 @@ A few questions I tend to ask when designing or reviewing a system:
 * **How will we know the important behavior still works?**
   Important behavior deserves tests.
 
-* **What trade-offs are we accepting?**
-  Trying to optimize for everything usually makes the system worse.
-
-* **Will this still be understandable six months from now?**
-  By another engineer — or by me.
-
+I also try to remember that we cannot optimize for everything. Every design has trade-offs, and software should still make sense to the next person who has to understand it, including me six months later.
 
 ## Selected work
 
@@ -66,17 +51,17 @@ A few questions I tend to ask when designing or reviewing a system:
 
 Reusable C#/.NET libraries covering configuration, caching, persistence, filesystem access, cryptography, logging, and shared infrastructure.
 
-The project explores API design, modularity, dependency boundaries, testing, and one question I consider particularly important: **when is an abstraction genuinely useful?**
+Much of the work is about API design, dependency boundaries, testing, and deciding when an abstraction is genuinely useful.
 
 ### [xvault](https://github.com/marcdp/xvault)
 
 A local-first Python CLI for keeping selectively encrypted secrets inside normal Git-friendly configuration and documentation files.
 
-It combines developer experience with security-conscious design, authenticated encryption, multiple file formats, explicit limitations, and safe failure behavior.
+It combines developer experience with security-conscious design, explicit limitations, and safe failure behavior.
 
 ### [dprojectstools](https://github.com/marcdp/dprojectstools)
 
-A Python package of developer-focused CLI utilities and reusable tooling for automation and terminal workflows.
+A collection of Python CLI utilities and reusable developer tooling for automation and terminal workflows.
 
 The goal is pragmatic: useful tools, predictable behavior, and as little unnecessary complexity as possible.
 
@@ -92,15 +77,15 @@ I’m continuing to deepen three areas that naturally fit together:
 
 **Software Engineering → Software Architecture → AI Engineering**
 
-My goal is to take on broader technical responsibility while remaining close to implementation: designing systems, making difficult technical decisions, improving technical foundations, and helping build software that remains understandable and reliable as it evolves.
+I want to take on broader technical responsibility while staying close to implementation: designing systems, making important technical decisions, strengthening engineering foundations, and helping software remain understandable and reliable as it evolves.
 
-I’m most interested in environments where **architecture, implementation, and technical leadership remain closely connected**.
+I’m particularly interested in work where **architecture, implementation, and technical leadership stay closely connected**.
 
 ## Technologies
 
 **Primary:** C#, .NET, Python
 
-**Focus areas:** Software Architecture · Distributed Systems · Event-Driven Systems · Backend Engineering · APIs · Databases · Testing · CI/CD · Developer Tooling · AI/LLM Engineering
+**Focus:** Software Architecture · Distributed Systems · Event-Driven Systems · Backend Engineering · Testing · CI/CD · Developer Tooling · AI/LLM Engineering
 
 ---
 
