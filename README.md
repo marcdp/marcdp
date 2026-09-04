@@ -59,11 +59,6 @@ A local-first Python CLI for keeping selectively encrypted secrets inside normal
 
 It combines developer experience with security-conscious design, explicit limitations, and safe failure behavior.
 
-### [dprojectstools](https://github.com/marcdp/dprojectstools)
-
-A collection of Python CLI utilities and reusable developer tooling for automation and terminal workflows.
-
-The goal is pragmatic: useful tools, predictable behavior, and as little unnecessary complexity as possible.
 
 ### [Equity Forecasting with Deep Learning](https://github.com/marcdp/equity-forecasting-ai)
 
@@ -71,11 +66,17 @@ Applied AI/ML research developed for my Master’s thesis, comparing LSTM, N-BEA
 
 The work focuses on chronological evaluation, simple baselines, leakage prevention, and the relationship between regression accuracy, directional prediction, and simulated trading performance.
 
+### [dprojectstools](https://github.com/marcdp/dprojectstools)
+
+A collection of Python CLI utilities and reusable developer tooling for automation and terminal workflows.
+
+The goal is pragmatic: useful tools, predictable behavior, and as little unnecessary complexity as possible.
+
 ## Current direction
 
 I’m continuing to deepen three areas that naturally fit together:
 
-**Software Engineering → Software Architecture → AI Engineering**
+**Software Engineering + Software Architecture + AI Engineering**
 
 I want to take on broader technical responsibility while staying close to implementation: designing systems, making important technical decisions, strengthening engineering foundations, and helping software remain understandable and reliable as it evolves.
 
